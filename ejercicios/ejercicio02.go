@@ -19,7 +19,7 @@ func TablaDeMultiplicar() {
 		if err != nil {
 			TablaDeMultiplicar()
 		}
-
+		fmt.Printf("\n")
 		for i := 1; i <= 10; i++ {
 			fmt.Printf("%d x %d = %d \n", numero, i, numero*i)
 		}
