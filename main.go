@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/johnrios07/godesde0/ejercicios"
 )
 
@@ -23,9 +21,14 @@ func main() {
 		fmt.Println("Esto es windows")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
-
+	}
 	numero, texto := ejercicios.ConvNumerico("cdcd")
 	fmt.Println(numero)
 	fmt.Println(texto)
+
+	teclado.IngresoNumeros()
+	iteraciones.Iterar()*/
+
+	ejercicios.TablaDeMultiplicar()
+
 }
