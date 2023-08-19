@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/johnrios07/godesde0/funciones"
+	"github.com/johnrios07/godesde0/users"
 )
 
 func main() {
@@ -35,6 +35,9 @@ func main() {
 
 	//files.LeoArchivio()
 
-	funciones.Exponencia(2)
+	//arreglos_slice.Capacidad()
 
+	//mapas.MostrarMapas()
+
+	users.AltaUsuario()
 }
