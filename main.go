@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/johnrios07/godesde0/users"
+	e "github.com/johnrios07/godesde0/ejer_interfaces"
+	"github.com/johnrios07/godesde0/modelos"
 )
 
 func main() {
@@ -39,5 +40,11 @@ func main() {
 
 	//mapas.MostrarMapas()
 
-	users.AltaUsuario()
+	//users.AltaUsuario()
+
+	Pedro := new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
 }
