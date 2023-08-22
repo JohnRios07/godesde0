@@ -1,8 +1,7 @@
 package main
 
 import (
-	e "github.com/johnrios07/godesde0/ejer_interfaces"
-	"github.com/johnrios07/godesde0/modelos"
+	d "github.com/johnrios07/godesde0/defer_panic"
 )
 
 func main() {
@@ -42,9 +41,11 @@ func main() {
 
 	//users.AltaUsuario()
 
-	Pedro := new(modelos.Hombre)
+	/*Pedro := new(modelos.Hombre)
 	e.HumanosRespirando(Pedro)
 
 	Maria := new(modelos.Mujer)
-	e.HumanosRespirando(Maria)
+	e.HumanosRespirando(Maria)*/
+
+	d.EjemploPanic()
 }
