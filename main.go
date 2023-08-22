@@ -51,9 +51,11 @@ func main() {
 
 	//d.EjemploPanic()
 
-	go goroutines.MiNombreLentooo("Alexander")
-
+	canal1 := make(chan bool)
+	go goroutines.MiNombreLentooo("Alexander", canal1)
+	defer func() {
+		<-canal1
+	}()
 	fmt.Println("Estoy aquí")
-	var x string
-	fmt.Scan(&x)
+
 }
